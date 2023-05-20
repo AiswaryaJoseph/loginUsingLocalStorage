@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>loginPage</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</head>
+
+<body style="text-align: center;">
+
+  <div class="row">
+    <div class="col-4"></div>  <!--first child start and close-->
+
+    <div class="col-4 mt-5 border rounded-5 shadow ps-5 pe-5"> <!--second child start-->
+      <h1 style="text-align:center" class="mt-5">Login</h1>
+      <input type="email" class="form-control mt-5 mb-3 border border-5 " id="uname" placeholder="Enter username">
+      <input type="password" class="form-control  border border-5 " id="pswd" placeholder="Password">
+      <button onclick="login()" type="submit" class="btn btn-primary btn-lg mt-5 mb-5">Submit</button>
+    </div>  <!--second child close-->
+
+    <div class="col-4"></div> <!--third child start and close-->
+
+  </div> <!--row closing-->
+
+  <script src="./login.js">
+
+  </script>
+</body>
+
+</html>
